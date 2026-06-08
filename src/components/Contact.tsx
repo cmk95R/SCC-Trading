@@ -17,7 +17,7 @@ export default function Contact() {
   ];
 
   return (
-    <Box id="contacto" sx={{ py: { xs: 10, md: 16 }, bgcolor: 'background.default' }}>
+    <Box id="contacto" sx={{ py: { xs: 5, md: 8 }, bgcolor: 'background.default' }}>
       <Container maxWidth="lg">
         <FadeInSection>
           <Typography

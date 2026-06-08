@@ -19,7 +19,7 @@ export default function Gallery() {
   const t = useT();
 
   return (
-    <Box id="galeria" sx={{ py: { xs: 10, md: 16 }, bgcolor: 'background.paper' }}>
+    <Box id="galeria" sx={{ py: { xs: 5, md: 8 }, bgcolor: 'background.paper' }}>
       <Container maxWidth="lg">
         <FadeInSection>
           <Typography

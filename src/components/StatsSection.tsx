@@ -58,7 +58,7 @@ export default function StatsSection() {
   return (
     <Box
       sx={{
-        py: { xs: 8, md: 10 },
+        py: { xs: 4, md: 5 },
         background: 'linear-gradient(135deg, #f5f7f4 0%, #e8efe8 100%)',
         borderTop: '1px solid rgba(0,0,0,0.04)',
         borderBottom: '1px solid rgba(0,0,0,0.04)',

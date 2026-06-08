@@ -8,7 +8,7 @@ export default function About() {
   const t = useT();
 
   return (
-    <Box id="quienes-somos" sx={{ py: { xs: 10, md: 16 }, bgcolor: 'background.default' }}>
+    <Box id="quienes-somos" sx={{ py: { xs: 5, md: 8 }, bgcolor: 'background.default' }}>
       <Container maxWidth="lg">
         <Grid container spacing={10} sx={{ alignItems: 'center' }}>
           <Grid size={{ xs: 12, md: 6 }}>

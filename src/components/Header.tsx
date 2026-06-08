@@ -21,11 +21,11 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { label: t.header.nav.inicio, to: 'inicio' },
-    { label: t.header.nav.about, to: 'quienes-somos' },
-    { label: t.header.nav.products, to: 'productos' },
-    { label: t.header.nav.gallery, to: 'galeria' },
-    { label: t.header.nav.contact, to: 'contacto' },
+    { label: t.header.nav.inicio, to: 'inicio', offset: 0 },
+    { label: t.header.nav.about, to: 'quienes-somos', offset: -30 },
+    { label: t.header.nav.products, to: 'productos', offset: -30 },
+    { label: t.header.nav.gallery, to: 'galeria', offset: -60 },
+    { label: t.header.nav.contact, to: 'contacto', offset: -20 },
   ];
 
   return (
@@ -105,7 +105,7 @@ export default function Header() {
                     },
                   }}
                 >
-                  <Link to={item.to} smooth={true} duration={800} offset={-90}>
+                  <Link to={item.to} smooth={true} duration={800} offset={item.offset ?? -90}>
                     {item.label}
                   </Link>
                 </Button>
