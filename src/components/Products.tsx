@@ -17,7 +17,7 @@ const cardVariants = {
 
 const productImages = [
   '/prod1.jpg',
-  '/prod2.jpg',
+  '/DRKB.jpg',
   '/prod3.jpg',
   '/prod4.jpg',
 ];
@@ -113,6 +113,10 @@ export default function Products() {
                       height: { xs: 240, md: 'auto' },
                       minHeight: { md: 280 },
                       overflow: 'hidden',
+                      transition: 'width 0.55s cubic-bezier(0.22, 1, 0.36, 1)',
+                      '.MuiCard-root:hover &': {
+                        width: { md: '78%' },
+                      },
                     }}
                   >
                     <CardMedia

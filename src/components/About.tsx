@@ -32,7 +32,7 @@ export default function About() {
                 >
                   <Box
                     component="img"
-                    src="/quienesomos.jpg"
+                    src="/quiensomos1.jpg"
                     alt="Agricultura"
                     sx={{
                       width: '100%',

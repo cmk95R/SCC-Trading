@@ -71,15 +71,82 @@ export const translations = {
     gallery: {
       overline: 'NUESTRO TRABAJO',
       title: 'Galería',
+      detailLabel: 'Ficha técnica',
+      specLabel: 'Especificaciones',
       images: [
-        { title: 'Poroto Mung' },
-        { title: 'Arvejas Frescas' },
-        { title: 'Campos de Cultivo' },
-        { title: 'Garbanzos' },
-        { title: 'Proceso de Selección' },
-        { title: 'Girasol Confitero' },
-        { title: 'Exportación Global' },
-        { title: 'Logística Internacional' },
+        {
+          title: 'Popcorn',
+          details: [
+            { label: 'Período de cosecha', value: 'Febrero / Marzo' },
+            { label: 'Expansión', value: '38/40, 40/42, 42/44' },
+            { label: 'K - 10', value: '55-65, 65-75, 75-85' },
+            { label: 'Humedad máx.', value: '14,50%' },
+          ],
+        },
+        {
+          title: 'Girasol Confitero',
+          details: [
+            { label: 'Período de cosecha', value: 'Marzo / Abril' },
+            { label: 'Tamaño', value: '16/64, 20/64, 22/64, 24/64' },
+          ],
+        },
+        {
+          title: 'Alubia',
+          details: [
+            { label: 'Período de cosecha', value: 'Junio / Julio' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Granos manchados máx.', value: '1%' },
+            { label: 'Granos ligeramente manchados máx.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Poroto Riñón Rojo',
+          details: [
+            { label: 'Período de cosecha', value: 'Junio / Julio' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Granos manchados máx.', value: '1%' },
+            { label: 'Granos ligeramente manchados máx.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Poroto Negro',
+          details: [
+            { label: 'Período de cosecha', value: 'Junio / Julio' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Granos manchados máx.', value: '1%' },
+            { label: 'Granos ligeramente manchados máx.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Poroto Mung Verde',
+          details: [
+            { label: 'Período de cosecha', value: 'Marzo / Abril' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Dañados máx.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Garbanzo',
+          details: [
+            { label: 'Período de cosecha', value: 'Noviembre / Diciembre' },
+            { label: 'Variedad', value: 'Kabuli' },
+            { label: 'Tamaño', value: '7mm, 8mm, 9mm, partido' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Dañados máx.', value: '3%' },
+            { label: 'Verdes máx.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Arveja',
+          details: [
+            { label: 'Período de cosecha', value: 'Noviembre / Diciembre' },
+            { label: 'Variedad', value: 'Verde, amarilla, entera y partida' },
+            { label: 'Tamaño', value: '4 a 7 mm' },
+            { label: 'Blanqueado máx.', value: '3/6%' },
+            { label: 'Material extraño máx.', value: '1%' },
+            { label: 'Grano partido máx.', value: '3%' },
+          ],
+        },
       ],
     },
     contact: {
@@ -90,7 +157,8 @@ export const translations = {
       info: {
         location: 'Buenos Aires, Argentina',
         email: 'executiondesk@scct.com.ar',
-        phone: '011 3620-8080',
+        phone: '+54 9 1155790550 - (Tomas Rosner)',
+        phone2: '+54 91158737974 - (Jorge Zocca)',
       },
       form: {
         name: 'Nombre',
@@ -178,15 +246,82 @@ export const translations = {
     gallery: {
       overline: 'OUR WORK',
       title: 'Gallery',
+      detailLabel: 'Product sheet',
+      specLabel: 'Specifications',
       images: [
-        { title: 'Green Mung Beans' },
-        { title: 'Fresh Peas' },
-        { title: 'Crop Fields' },
-        { title: 'Chickpeas' },
-        { title: 'Selection Process' },
-        { title: 'Confectionery Sunflower' },
-        { title: 'Global Export' },
-        { title: 'International Logistics' },
+        {
+          title: 'Popcorn',
+          details: [
+            { label: 'Harvest period', value: 'February / March' },
+            { label: 'Expansion', value: '38/40, 40/42, 42/44' },
+            { label: 'K - 10', value: '55-65, 65-75, 75-85' },
+            { label: 'Humidity max.', value: '14.50%' },
+          ],
+        },
+        {
+          title: 'Confectionery Sunflower',
+          details: [
+            { label: 'Harvest period', value: 'March / April' },
+            { label: 'Size', value: '16/64, 20/64, 22/64, 24/64' },
+          ],
+        },
+        {
+          title: 'Alubia Beans',
+          details: [
+            { label: 'Harvest period', value: 'June / July' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Stained grains max.', value: '1%' },
+            { label: 'Slightly stained grains max.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Red Kidney Bean',
+          details: [
+            { label: 'Harvest period', value: 'June / July' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Stained grains max.', value: '1%' },
+            { label: 'Slightly stained grains max.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Black Bean',
+          details: [
+            { label: 'Harvest period', value: 'June / July' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Stained grains max.', value: '1%' },
+            { label: 'Slightly stained grains max.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Green Mung Beans',
+          details: [
+            { label: 'Harvest period', value: 'March / April' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Damaged beans max.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Chickpeas',
+          details: [
+            { label: 'Harvest period', value: 'November / December' },
+            { label: 'Variety', value: 'Kabuli' },
+            { label: 'Size', value: '7mm, 8mm, 9mm, split' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Damaged beans max.', value: '3%' },
+            { label: 'Green beans max.', value: '3%' },
+          ],
+        },
+        {
+          title: 'Peas',
+          details: [
+            { label: 'Harvest period', value: 'November / December' },
+            { label: 'Variety', value: 'Green, yellow, whole and split' },
+            { label: 'Size', value: '4 to 7 mm' },
+            { label: 'Whitening max.', value: '3/6%' },
+            { label: 'Foreign material max.', value: '1%' },
+            { label: 'Split grain max.', value: '3%' },
+          ],
+        },
       ],
     },
     contact: {
@@ -197,7 +332,9 @@ export const translations = {
       info: {
         location: 'Buenos Aires, Argentina',
         email: 'executiondesk@scct.com.ar',
-        phone: '011 3620-8080',
+        phone: '+54 9 1155790550 - (Tomas Rosner)',
+        phone2: '+54 91158737974 - (Jorge Zocca)',
+
       },
       form: {
         name: 'Name',

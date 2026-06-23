@@ -14,6 +14,7 @@ export default function Contact() {
     { icon: <LocationOnIcon />, text: t.contact.info.location },
     { icon: <EmailIcon />, text: t.contact.info.email },
     { icon: <PhoneIcon />, text: t.contact.info.phone },
+    { icon: <PhoneIcon />, text: t.contact.info.phone2 },
   ];
 
   return (
