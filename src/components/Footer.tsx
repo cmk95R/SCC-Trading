@@ -80,6 +80,7 @@ export default function Footer() {
             <Typography variant="body2" sx={{ opacity: 0.7, mb: 1 }}>{t.contact.info.location}</Typography>
             <Typography variant="body2" sx={{ opacity: 0.7, mb: 1 }}>{t.contact.info.email}</Typography>
             <Typography variant="body2" sx={{ opacity: 0.7 }}>{t.contact.info.phone}</Typography>
+            <Typography variant="body2" sx={{ opacity: 0.7 }}>{t.contact.info.phone2}</Typography>
           </Box>
         </Box>
 

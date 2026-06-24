@@ -88,9 +88,9 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             >
               {t.loading.subtitle}
             </motion.p>
-            <div style={{ width: 200, height: 3, background: 'rgba(255,255,255,0.15)', borderRadius: 3, overflow: 'hidden' }}>
+            <div style={{ width: 200, height: 3, background: 'rgba(255,255,255,0.15)', borderRadius: 3, overflow: 'hidden', margin: '0 auto' }}>
               <motion.div
-                style={{ height: '100%', background: '#f9a825', borderRadius: 3 }}
+                style={{ height: '100%', background: '#f9a825', borderRadius: 3,  }}
                 animate={{ width: `${Math.min(progress, 100)}%` }}
                 transition={{ duration: 0.2 }}
               />
