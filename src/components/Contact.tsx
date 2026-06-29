@@ -85,7 +85,7 @@ export default function Contact() {
                         width: 44,
                         height: 44,
                         borderRadius: '50%',
-                        bgcolor: 'rgba(27,94,32,0.08)',
+                        bgcolor: 'rgba(27,94,32,0.08)', 
                         transition: 'all 0.3s',
                         '&:hover': {
                           bgcolor: 'primary.main',

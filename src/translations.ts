@@ -149,6 +149,11 @@ export const translations = {
         },
       ],
     },
+    exports: {
+      overline: 'OPERACIONES REALIZADAS',
+      title: 'Exportaciones ',
+      subtitle: 'Logística global, envíos concretados',
+    },
     contact: {
       overline: 'COMUNÍCATE',
       title: 'Contacto',
@@ -323,6 +328,11 @@ export const translations = {
           ],
         },
       ],
+    },
+    exports: {
+      overline: 'COMPLETED OPERATIONS',
+      title: 'Exports ',
+      subtitle: 'Global logistics, completed shipments',
     },
     contact: {
       overline: 'GET IN TOUCH',

@@ -7,6 +7,7 @@ import About from './components/About'
 import StatsSection from './components/StatsSection'
 import Products from './components/Products'
 import Gallery from './components/Gallery'
+import ExportsCarousel from './components/ExportsCarousel'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -29,6 +30,7 @@ function AppContent() {
             <StatsSection />
             <Products />
             <Gallery />
+            <ExportsCarousel />
             <Contact />
           </main>
           <Footer />
