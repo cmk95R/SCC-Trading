@@ -153,7 +153,6 @@ export default function ExportsCarousel() {
                   sm: `translateX(calc(-${index} * (100% / 2)))`,
                   md: `translateX(calc(-${index} * (100% / 3)))`,
                 },
-                px: { xs: 2, sm: 3, md: 0 },
               }}
             >
               {exportImages.map((src, i) => (
@@ -162,8 +161,9 @@ export default function ExportsCarousel() {
                   ref={(el) => (slideRefs.current[i] = el)}
                   sx={{
                     flex: { xs: '0 0 100%', sm: '0 0 50%', md: '0 0 33.3333%' },
-                    px: { xs: 0, sm: 1, md: 1.5 },
+                    px: { xs: 1, sm: 1.5, md: 1.5 },
                     boxSizing: 'border-box',
+                    minWidth: 0,
                   }}
                 >
                   <motion.div
@@ -247,15 +247,16 @@ export default function ExportsCarousel() {
             sx={{
               position: 'absolute',
               top: '50%',
-              left: { xs: 4, md: -22 },
+              left: { xs: 6, md: -22 },
               transform: 'translateY(-50%)',
               zIndex: 5,
-              width: { xs: 40, md: 48 },
-              height: { xs: 40, md: 48 },
+              width: { xs: 36, md: 48 },
+              height: { xs: 36, md: 48 },
               borderRadius: '50%',
-              bgcolor: 'white',
+              bgcolor: 'rgba(255,255,255,0.92)',
+              backdropFilter: 'blur(6px)',
               color: 'primary.main',
-              boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
+              boxShadow: '0 6px 18px rgba(0,0,0,0.20)',
               transition: 'all 0.3s ease',
               '&:hover': {
                 bgcolor: 'primary.main',
@@ -265,7 +266,7 @@ export default function ExportsCarousel() {
               },
             }}
           >
-            <ArrowBackIosNewIcon sx={{ fontSize: { xs: 16, md: 18 } }} />
+            <ArrowBackIosNewIcon sx={{ fontSize: { xs: 15, md: 18 } }} />
           </IconButton>
 
           <IconButton
@@ -275,15 +276,16 @@ export default function ExportsCarousel() {
             sx={{
               position: 'absolute',
               top: '50%',
-              right: { xs: 4, md: -22 },
+              right: { xs: 6, md: -22 },
               transform: 'translateY(-50%)',
               zIndex: 5,
-              width: { xs: 40, md: 48 },
-              height: { xs: 40, md: 48 },
+              width: { xs: 36, md: 48 },
+              height: { xs: 36, md: 48 },
               borderRadius: '50%',
-              bgcolor: 'white',
+              bgcolor: 'rgba(255,255,255,0.92)',
+              backdropFilter: 'blur(6px)',
               color: 'primary.main',
-              boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
+              boxShadow: '0 6px 18px rgba(0,0,0,0.20)',
               transition: 'all 0.3s ease',
               '&:hover': {
                 bgcolor: 'primary.main',
@@ -293,7 +295,7 @@ export default function ExportsCarousel() {
               },
             }}
           >
-            <ArrowForwardIosIcon sx={{ fontSize: { xs: 16, md: 18 } }} />
+            <ArrowForwardIosIcon sx={{ fontSize: { xs: 15, md: 18 } }} />
           </IconButton>
         </Box>
 
